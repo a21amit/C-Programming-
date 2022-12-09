@@ -1,0 +1,24 @@
+/* Here we get installation process of C
+   compiler in termux */
+
+1.>pkg install vim;
+  >vi filename.c;
+  >gcc -Wall filename.c -o;
+  >./filename;
+      //semicolon need not to use.
+
+The compiler page opens where we can code of 
+C language and to save them use
+    esc :w
+To see output of saved code use
+    esc:q
+
+
+
+
+2.>pkg install nano
+  >pkg install clang
+  >pkg install clang++. //optional
+  >nano filename.c
+  >clang filename.c
+  >./a.out
