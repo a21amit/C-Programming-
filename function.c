@@ -1,18 +1,21 @@
 #include<stdio.h>
-int swap();
+int swap(int num);
 int main()
 {
-	swap();
+	int n;
+	printf("Enter num ");
+	scanf("%d",&n);
+	swap(n);
 }
-int swap()
+int swap(int num)
 {
-	int a,b,c=0;
-	printf("Enter a, b :");
-	scanf("%d%d",&a,&b);
-	c=a;
-	a=b;
-	b=c;
-	printf("%d\n%d",a,b);
+	int i,sto;
+	for(i=1;i<=10;i++)
+	{
+		sto=num;
+		sto=num*i;
+		printf("%d * %d = %d\n",num,i,sto);
+	}
 	return 0;
 	
 }
