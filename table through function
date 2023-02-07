@@ -1,13 +1,13 @@
 #include<stdio.h>
-int swap(int num);
+int table(int num);
 int main()
 {
 	int n;
 	printf("Enter num ");
 	scanf("%d",&n);
-	swap(n);
+	table(n);
 }
-int swap(int num)
+int table(int num)
 {
 	int i,sto;
 	for(i=1;i<=10;i++)
